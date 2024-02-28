@@ -136,7 +136,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // Inserting into Database
 $result = insert($name, $email, $phone, $address, $place);
 echo $result;
-
+//
 
 // checking validation
 if ($nameErr != "" || $emailErr != "" || $placeErr != "" || $phoneErr != "" || $addressErr != "") {
